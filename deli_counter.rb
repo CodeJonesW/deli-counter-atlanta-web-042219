@@ -21,6 +21,7 @@ end
 
 def now_serving(array)
   if array.length == 0 
-    return 
+    return "There is nobody waiting to be served!"
+  else
   array.shift()
 end
