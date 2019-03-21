@@ -14,3 +14,8 @@ def line (array)
 end
 end
 
+def take_a_number(array,string)
+  array.push(string)
+  puts "#{string}, #{array.index(string)}"
+end
+end
