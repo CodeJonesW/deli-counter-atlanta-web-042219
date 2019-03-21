@@ -18,3 +18,5 @@ def take_a_number(array,string)
   array.push(string)
   puts "Welcome, #{string}. You are number #{array.index(string)+1} in line."
 end
+
+def now_serving ()
